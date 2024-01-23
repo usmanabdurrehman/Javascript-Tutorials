@@ -5,5 +5,13 @@ const items = [
   { name: "Modern Javascript", category: "technology" },
 ];
 
-console.log(items[items.length - 1]);
 console.log(items.at(-1));
+console.log(items.at(-2));
+
+let count;
+
+if (false) {
+  count = 8;
+}
+
+console.log((count ?? 0) * 20);

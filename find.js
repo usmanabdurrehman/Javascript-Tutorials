@@ -8,5 +8,5 @@ const items = [
   { name: "Modern Javascript", category: "technology" },
 ];
 
-console.log(items.findIndex((item) => item.category === "technology"));
-console.log(items.find((item) => item.category === "technology"));
+console.log(items.findLastIndex((item) => item.category === "technology"));
+console.log(items.findLast((item) => item.category === "technology"));

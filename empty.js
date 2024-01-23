@@ -1,12 +1,11 @@
 let user;
 
 // true will assign a value, false wont
-if (false) {
+if (true) {
   user = { id: 1, name: "David" };
 }
 
-if (user) console.log(user.id);
-console.log(user?.id);
+// console.log(user?.id);
 
 let count;
 
